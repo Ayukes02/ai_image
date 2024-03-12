@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Image Generator</h1>
+        <div class="controls">
+            <label for="imageType">Select Image Type:</label>
+            <select id="imageType">
+                <option value="landscape">Landscape</option>
+                <option value="portrait">Portrait</option>
+                <option value="abstract">Abstract</option>
+            </select>
+            <button onclick="generateImage()">Generate Image</button>
+        </div>
+        <div class="image-container" id="imageContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
